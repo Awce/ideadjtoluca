@@ -23,68 +23,155 @@
     </script>
   </head>
   <body>
-    <header class="header">
-      <nav class="menu">
-          <ul class="list">
-              <a href=""></a>
-          </ul>
-      </nav>
+        <div class="md-modal md-effect-7" id="modal-7">
+            <div class="md-content">
+                <h3>Contáctanos</h3>
+                <div>
+                    <p><script>
+                            document.write(getMensaje());
+                        </script>
+                    </p>
+                    <form class="form-horizontal" role="form">
+                        <div class="form-group">
+                            <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                                <div class="col-sm-10">
+                                    <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="inputPassword3" class="col-sm-2 control-label">Password</label>
+                                <div class="col-sm-10">
+                                    <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+                                </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-sm-offset-2 col-sm-10">
+                                <button type="submit" class="md-close">Enviar</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
 
-    </header>
+        <div class="container">
+
+            <div class="n-top clearfix">
+                <span class="right"><button class="md-trigger" data-modal="modal-7"> CONTÁCTANOS</button></span>
+            </div>
+        </div>
+            <!-- Contenido -->
+<header>
+    <figure>
+        <img src="img/logo.fw.png" alt="">
+    </figure>
+</header>
     <section class="container">
       <section class="djs">
         <article>
           <figure class="foto">
-              <img src="img/djs/alex.jpg" alt="Alejandro Hernadez @Alex ">
+              <img src="img/djs/freckles.jpg"  width="128"  height="128" alt="Freckles @Freckles ">
           </figure>
           <figcaption>
               <p class="nombre">
-                  Alejandro Hernadez
+                  Freckles
               </p>
           </figcaption>
           <p class="social">
-              @Alex
+              @
           </p>
         </article>
         <article>
           <figure class="foto">
-              <img src="img/djs/alex.jpg" alt="Alejandro Hernadez @Alex ">
+              <img src="img/djs/alex.jpg"  width="128"  height="128" alt="Alex Hernandez">
           </figure>
           <figcaption>
               <p class="nombre">
-                  Alejandro Hernadez
+                  Alex Hernandez
               </p>
           </figcaption>
           <p class="social">
-              @Alex
+              @
           </p>
         </article>
         <article>
           <figure class="foto">
-              <img src="img/djs/alex.jpg" alt="Alejandro Hernadez @Alex ">
+              <img src="img/djs/albertone.jpg"  width="128"  height="128" alt="Albert One ">
           </figure>
           <figcaption>
               <p class="nombre">
-                  Alejandro Hernadez
+                  Albert ONE
               </p>
           </figcaption>
           <p class="social">
-              @Alex
+              @
           </p>
         </article>
         <article>
           <figure class="foto">
-              <img src="img/djs/alex.jpg" alt="Alejandro Hernadez @Alex ">
+              <img src="img/djs/isacrodriguez.jpg"  width="128"  height="128" alt="Isaac Rodriguez ">
           </figure>
           <figcaption>
               <p class="nombre">
-                  Alejandro Hernadez
+                  Isaac Rodriguez
               </p>
           </figcaption>
           <p class="social">
-              @Alex
+              @
           </p>
         </article>
+        <article>
+          <figure class="foto">
+              <img src="img/djs/kermit.jpg"  width="128"  height="128" alt="Kermit ">
+          </figure>
+          <figcaption>
+              <p class="nombre">
+                  Kermit
+              </p>
+          </figcaption>
+          <p class="social">
+              @
+          </p>
+        </article>
+        <article>
+          <figure class="foto">
+              <img src="img/djs/kike.jpg"  width="128"  height="128" alt="Kike Barranco ">
+          </figure>
+          <figcaption>
+              <p class="nombre">
+                  Kike Barranco
+              </p>
+          </figcaption>
+          <p class="social">
+              @
+          </p>
+        </article>
+        <article>
+          <figure class="foto">
+              <img src="img/djs/simpo.jpg"  width="128"  height="128" alt="Sintonika ">
+          </figure>
+          <figcaption>
+              <p class="nombre">
+                  Sintonika
+              </p>
+          </figcaption>
+          <p class="social">
+              @
+          </p>
+        </article>
+        <article>
+          <figure class="foto">
+              <img src="img/djs/joe.jpg"  width="128"  height="128" alt="Joe Parra ">
+          </figure>
+          <figcaption>
+              <p class="nombre">
+                  Joe Parra
+              </p>
+          </figcaption>
+          <p class="social">
+              @
+          </p>
+        </article>        
       </section>
     </section>
     <footer>
@@ -96,7 +183,7 @@
         <figure>
           <img src="img/footer.fw.png" alt="iDea Dj´s Tolua">
         </figure> 
-            <p> Todos los derechos reservados 2014, iDea Dj´s Toluca. Edo. de México.</p>  
+            <p> Todos los derechos reservados 2014© iDea Dj´s Toluca. Edo. de México.</p>  
     </div>
     </footer>
     <script src="js/vendor/jquery.js"></script>
@@ -104,5 +191,13 @@
     <script>
       $(document).foundation();
     </script>
+    <div class="md-overlay"></div>
+    <script src="js/classie.js"></script>
+    <script src="js/modalEffects.js"></script>
+    <script>
+          var polyfilter_scriptpath = '/js/';
+    </script>
+    <script src="js/cssParser.js"></script>
+    <script src="js/css-filters-polyfill.js"></script>  
   </body>
 </html>
